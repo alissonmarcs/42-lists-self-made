@@ -66,8 +66,10 @@ signal = 1;
 ## Cálculo do resultado
 Cada dígito em um número tem um "peso". Multiplicando o dígito pelo "peso" da "casa" que ele ocupa, fazendo isso para os demais digitos do número e, ao fim, somanto os resultados encontrados, temos o valor do número:
 
+```
 200 + 30 + 4 = 234
 (2 * 100) + (3 * 10) + (4 * 1) = 234
+```
 
 Vamos chamar a forma acima de "forma tradicional".
 
